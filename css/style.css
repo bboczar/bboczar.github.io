@@ -18,7 +18,7 @@
   --clr-accent: #16e0bd;
 
   --fs-h1: 3rem;
-  --fs-h2: 2.25rem;
+  --fs-h2: 2rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
 
@@ -29,7 +29,7 @@
 @media (min-width: 900px) {
   :root {
     --fs-h1: 4.3rem;
-    --fs-h2: 3.75rem;
+    --fs-h2: 3.2rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
   }
@@ -417,7 +417,7 @@ header {
   grid-template-areas:
     "automotive telecom stb";
   /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
-  max-width: 990px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -495,8 +495,20 @@ header {
   margin: 0 auto;
 }
 
-.portfolio-item-individual p {
+.portfolio-item-individual p,
+.portfolio-item-individual h2,
+.portfolio-item-individual h3 {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.portfolio-item-individual h2 {
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.portfolio-item-individual h3 {
+  margin-top: 1em;
+  margin-bottom: 0.35em;
 }
