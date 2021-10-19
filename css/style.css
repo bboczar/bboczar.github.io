@@ -150,10 +150,6 @@ header {
   padding: 1em;
 }
 
-.logo {
-  max-width: 100px;
-}
-
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -161,9 +157,10 @@ header {
   border-radius: 1em;
   top: 0;
   bottom: 70%;
-  left: 70%;
+  left: 60%;
   right: 0;
   z-index: 100;
+  min-width: 100px;
 
   transform: translateX(101%);
   transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
